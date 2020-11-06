@@ -19,7 +19,7 @@ const postFields = `
   'date': publishedAt,
   excerpt,
   'slug': slug.current,
-  'coverImage': mainImage.asset->url,
+  'coverImage': mainImage,
   'author': author->{name, 'picture': image.asset->url},
 `
 
